@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - put size of thing
+ * main - Entry point
  * Return: Always 0 (Success)
  */
 int main(void)
