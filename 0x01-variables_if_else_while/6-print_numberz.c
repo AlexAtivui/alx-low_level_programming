@@ -1,19 +1,17 @@
 #include <stdio.h>
 /**
- * main - reverse
- *
- * Return: 0(Success)
- *
+ * main - Entry point
+ * Return: 0 (Success)
+ * Description: Printing in base 10
  */
 int main(void)
 {
-	int reve = 122;
+	int i;
 
-	while (reve >= 97)
+	for (i = 0; i < 10; i++)
 	{
-		putchar (reve);
-		reve--;
+		putchar(i + '0');
 	}
 	putchar('\n');
-	return (0);
+	return (0)
 }
