@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Return: 0 (Success)
- * Description: This prints all possible combinations of 2 2-digitd numbers.
+ * Description: This prints all possible combinations of 2 2-digits numbers.
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 			putchar(j / 10 + '0');
 			putchar(j % 10 + '0');
 
-			if (i != 98 || j != 98)
+			if (i != 98 || j != 99)
 			{
 				putchar(',');
 				putchar(' ');
