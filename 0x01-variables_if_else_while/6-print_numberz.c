@@ -1,18 +1,19 @@
 #include <stdio.h>
-
 /**
  * main - reverse
  *
  * Return: 0(Success)
+ *
  */
 int main(void)
 {
-	int i;
+	int reve = 122;
 
-	for ( = 48; i < 58; i++)
+	while (reve >= 97)
 	{
-		putchar(i);
+		putchar (reve);
+		reve--;
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
