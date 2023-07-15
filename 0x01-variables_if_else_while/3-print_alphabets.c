@@ -1,20 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - Prints the alphabet.
+ * main - Printing alphabets
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Sucess)
+ *
  */
 int main(void)
 {
-char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-       int i;
+	char low = 'a';
+	char upp = 'A';
 
-       for (i = 0; i < 52; i++)
-       {
-	        putchar("\n');
-       }
-       putchar('\n');
-       return (0)
-}       
-    	       
+	for (low ='a'; low <= 'z'; low++)
+	{
+		putchar(low);
+	}
+	for (upp = 'A'; upp <= 'Z'; upp++)
+	{
+		putchar(upp);
+	}
+	putchar('\n');
+	return (0);
+}
