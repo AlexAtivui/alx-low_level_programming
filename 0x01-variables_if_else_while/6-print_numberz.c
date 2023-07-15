@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	char reve = 'Z';
+	int reve = 122;
 
-	while (reve >= 'a')
+	while (reve >= 97)
 	{
 		putchar(reve);
 		reve--;
