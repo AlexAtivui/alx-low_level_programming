@@ -5,10 +5,10 @@
  */
 void print_alphabet(void)
 {
-	char(c);
-	for (c = 'a'; c <= 'z'; c++)
+	char(letter);
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		_putchar(c);
+		_putchar(letter);
 	}
 	_putchar('\n');
-
+}
