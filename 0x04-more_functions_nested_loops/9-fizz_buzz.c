@@ -24,12 +24,12 @@ int main(void)
 		} else if (i == 1)
 		{
 			printf("%d", i);
-		}	else 
+		} else
 		{
 			printf(" %d", i);
 		}
 	}
 	printf("\n");
 
-	return (0);
+	return(0);
 }
