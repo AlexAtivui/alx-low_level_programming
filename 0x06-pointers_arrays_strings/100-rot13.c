@@ -8,7 +8,7 @@
  * Return: *s
  */
 
-char *rot13(char *)
+char *rot13(char *s)
 {
 	int i;
 	int j;
@@ -19,7 +19,7 @@ char *rot13(char *)
 	{
 		for (j = 0; j < 52; j++)
 		{
-			if (s[i] == data[j])
+			if (s[i] == data1[j])
 			{
 				s[i] = datarot[j];
 				break;
