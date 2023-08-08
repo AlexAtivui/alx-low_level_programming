@@ -25,5 +25,6 @@ int main(void)
 	r = is_prime_number(113);
 	printf("%d\n", r);
 	r = is_prime_number(7919);
-	printf("%d\n", r);return (0);
+	printf("%d\n", r);
+	return (0);
 }
