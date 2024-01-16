@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _strdup - duplicate a string 
+ * _strdup - duplicate a string
  * @str: the string to duplicate
  *
  * Return: the string duplicated
@@ -10,7 +10,7 @@
 char *_strdup(char *str)
 {
 	int a = 0, i = 1;
-	char *s; 
+	char *s;
 
 	if (str == NULL)
 		return (NULL);
@@ -19,7 +19,7 @@ char *_strdup(char *str)
 	{
 		i++;
 	}
-	
+
 	s = malloc((sizeof(char) * i) + 1);
 
 	if (s == NULL)
