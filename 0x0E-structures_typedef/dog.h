@@ -1,5 +1,5 @@
-#include <stdlib.h>
-#include "dog.h"
+#ifndef _HEADER_
+#define _HEADER_
 
 /**
  * struct_dog - Dog attributes
