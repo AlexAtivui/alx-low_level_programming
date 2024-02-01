@@ -9,17 +9,23 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t s = 0;
+	int count = 0;
 
-	while (h)
+	if (h == NULL)
+		return (0);
+
+	while (h != NULL)
 	{
-		if (!h->str)
+		char *p = h->str;
+
+		if (p == NULL)
 			printf("[o] (nil)\n");
 		else
-			printf("#%u] %s\n", h->len, h->str);
+			printf("[%d] %s\n", h->len, p);
+
+		count++;
 		h = h->next;
-		s++;
 	}
 
-	return (s);
+	return (count);
 }
